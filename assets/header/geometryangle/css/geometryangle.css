@@ -1,0 +1,31 @@
+._geometryangle-container{
+	position: var(--relative);
+	height: var(--100vh);
+	overflow: var(--hidden);
+}
+
+._geometryangle{
+	content: var(--quote);
+	position: var(--absolute);
+	top: var(--0);
+	right: var(--0);
+	bottom: var(--0);
+	left: var(--0);
+	z-index: var(--10);
+	transition: var(--1s);
+	opacity: var(--0c6);
+}
+
+._geometryangle-tool-green{
+	opacity: var(--none);
+}
+
+._geometryangle:before{
+	content: var(--quote);
+	position: var(--absolute);
+	top: var(--0);
+	right: var(--0);
+	bottom: var(--0);
+	left: var(--0);
+	background-color: rgba(0,0,0,0.6);
+}
